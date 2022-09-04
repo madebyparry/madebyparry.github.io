@@ -1,0 +1,31 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Caramel&family=Gemunu+Libre:wght@800');
+
+ /**** Font Names:
+ * 'Bonheur Royale'
+ * 'Caramel'
+ * 'Gemunu Libre'
+ * 'Futura'
+ * 'Helvetica'
+ * 'Impact'
+ * 'Times New Roman'
+ * Your Preferred Font Family
+ */
+
+ header ul {
+   list-style-type: none;
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+.ticker {font-size: 50pt;}
+
+/* Seven Ticker Id's */
+ #ticker1 {font-family: 'Bonheur Royale';}
+ #ticker2 {font-family: 'Caramel';}
+ #ticker3 {font-family: 'Gemunu Libre';}
+ #ticker4 {font-family: 'Futura PT';}
+ #ticker5 {font-family: 'Arial';}
+ #ticker6 {font-family: 'Impact';}
+ #ticker7 {font-family: 'Times New Roman';}

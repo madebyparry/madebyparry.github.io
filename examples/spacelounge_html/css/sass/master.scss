@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "SpaceLoungeRegular";
+  src: url("../assets/fonts/SpaceMono-Regular.ttf") format("TrueType"),
+}
+
+@font-face {
+  font-family: "SpaceLoungeBold";
+  src: url("../assets/fonts/SpaceMono-Bold.ttf") format("TrueType"),
+}
+
+@font-face {
+  font-family: "SpaceLoungeBoldItalic";
+  src: url("../assets/fonts/SpaceMono-BoldItalic.ttf") format("TrueType"),
+}
+
+@font-face {
+  font-family: "SpaceLoungeItalic";
+  src: url("../assets/fonts/SpaceMono-Italic.ttf") format("TrueType"),
+}
+
+
+
+$neon_red: #FF6B00;
+$neon_red_trasnparent:rgba(255,107,0,0.6);
+$neon_blue: #2EFCFF;
+$neon_blue_trasnparent:rgba(46,252,255,0.6);
+$neon_green: #2EFF86;
+$neon_green_trasnparent:rgba(46,252,255,0.6);
+
+$primary_font_reg:"SpaceLoungeRegular";
+$primary_font_bld:"SpaceLoungeBold";
+$primary_font_itl:"SpaceLoungeBoldItalic";
+$primary_font_b-i:"SpaceLoungeItalic";
+
+
+* {margin:0;}
+h1,h2,h3,h4,h5,h6,p,li,a {color:$neon_red;font-family:$primary_font_reg;}
+a:hover{color:$neon_blue;text-shadow: 0px 0px 7px $neon_blue;}
+ul {list-style-type: none;padding-left: 0;}
+li {}
+h3 {font-size: 3em;margin-bottom: 100px;colo:$neon_green;font-family: $primary_font_bld;}
+p{font-size: 1.5em;}
+
+.wrapper{
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+body {
+  background-image: url("../assets/bricks_e.jpg");
+  background-size:contain;
+  font-family: "Myriad Pro";
+}
+
+header, .header-top, .header-bottom {   display: flex;align-items: center;justify-content: center;}
+
+header {
+  background-color: rgba(0,0,0,0.9);
+  width:100%;
+  border-bottom: 5px solid $neon_red;
+  flex-wrap: wrap;
+  position: sticky;
+  top:0;
+
+  -webkit-box-shadow: inset 0 0 30px $neon_red_trasnparent;
+  -moz-box-shadow: inset 0 0 30px $neon_red_trasnparent;
+  box-shadow: inset 0 0 30px $neon_red_trasnparent, -5px 0 30px $neon_red_trasnparent;
+
+  .header-top {
+    margin-top:25px;
+  }
+}
+
+
+.header-bottom {
+  width:90%;
+  a { color: $neon_red;text-decoration: none;}
+  a:hover {
+    color:$neon_blue;
+    text-shadow: 0px 0px 7px $neon_blue;
+  }
+  ul {
+    list-style-type: none;padding-left: none;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+  }
+  li {
+    margin: 0px 5px;
+    font-family: $primary_font_bld;
+  }
+  li:hover{
+    color:$neon_blue;
+  }
+}
+
+.main-logo {
+  width:20%;
+  display: block;
+}
+
+
+.hero {
+  .hero-image {
+    display:block;
+    margin:auto;
+    transition-duration: 1s;
+    transition-delay: 1s;
+  }
+  .hero-video-wrapper {
+
+    margin:auto;
+  }
+  #hero-video {
+    width:50%;
+    border-bottom: 5px solid $neon_red;
+    margin:auto;
+    margin-top:50px;
+    }
+  .hero-image:hover {
+    transform: rotate(-30deg);
+  }
+  .hero-text {
+    height:250px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    p {
+      text-align:center;
+      color: $neon_red;
+      font-size: 24pt;
+      width:100%;
+    }
+  }
+}
+
+.countdown-wrapper {
+    padding-top:100px;
+    .date-header {
+      margin-bottom: 100px;
+    }
+    h3 {color:$neon_red;margin-bottom: 2.5em;font-family: $primary_font_bld;}
+    p {color:$neon_red;font-size: 4em;text-shadow: 0px 0px 10px $neon_red_trasnparent;transition:1s;font-family: $primary_font_b-i;}
+    p:hover {color:$neon_blue;text-shadow: 0px 0px 13px $neon_blue;}
+    text-align: center;
+    .time-info-wrapper {
+      color: $neon_red;
+      margin-top: 25px;
+      ul{
+        list-style-type: none;
+        padding-left: 0;
+      }
+      li {
+        padding-left: none;
+        margin-top: 100px;
+        font-size: 2em;
+        margin-bottom: 10px;
+        font-family: $primary_font_itl;
+      }
+      li:hover {
+        color:$neon_blue;
+        text-shadow: 0px 0px 7px $neon_green;
+      }
+    }
+}
+
+.setlist-wrapper{
+  a {
+    text-decoration: none;
+  }
+  hr {
+    width:50%;
+    margin:auto;
+    color:$neon_blue;
+    margin-bottom: 50px;
+  }
+  li{
+    font-size: 5em;
+    margin-bottom: 50px;
+    font-family: $primary_font_itl;
+  }
+  li:hover{
+    color:$neon_blue;
+  }
+  .more {
+    font-size: 24px;
+  }
+}
+
+.costume-wrapper {
+  margin:auto;
+  margin-bottom: 100px;
+  .costume-info{
+    width:70%;
+    margin:auto;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+}
+
+.contact-wrapper{
+  .contact-info{
+    width:70%;
+    margin:auto;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  .contact-link>p{
+    font-size: 2.5em;font-family: $primary_font_bld;
+  }
+  .contact-link>p:hover{
+    color:$neon_blue;
+  }
+}
+
+.fancy-break {
+  background-image: url("../assets/spacelounge_tiled_wallpaper.png");
+  background-size: cover;
+  background-color: rgba(0,0,0,0.8);
+  height:100px;
+  background-attachment: fixed;
+  background-position: center;
+  border-top: 5px solid $neon_red;
+  border-bottom: 5px solid $neon_red;
+  margin-bottom: 100px;
+}
+
+footer {
+  height: 200px;
+  background-color: rgba(0,0,0,0.3);
+  width:100%;
+  border-top: 5px solid $neon_red;
+  flex-wrap: wrap;
+  display:flex;
+  margin-top: 100px;
+
+  display:none;
+}
+
+.footer-left {
+  width:50%;
+}
+
+.footer-right {
+  width:50%;
+}
+
+.disclosure {
+  text-align: center;
+  margin: 50px 0;
+  border-bottom: 5px solid $neon_blue;
+  P{margin-bottom: 50px;  color:$neon_blue_trasnparent;font-size: 1em;}
+}
+
+.tag-header {
+    text-align: left;
+    border-left: 50px solid $neon_red;
+    padding-left: 10px;
+    transition:0.5s;
+    cursor:default;
+}
+
+.tag-header:hover {
+  border-left: 150px solid $neon_red;
+}

@@ -1,0 +1,34 @@
+body{margin:0;}
+
+header {
+border-bottom: 2px solid black;
+background-color: white;
+height:150px;
+padding-top:5vh;
+box-shadow: 2px 2px 2px 2px lightgrey;
+position: sticky;
+top:0;
+}
+
+article {
+margin:15vh 10vw;
+box-shadow:2px 2px 2px 2px lightgrey;
+padding:2vw 0vw;
+}
+
+article h3 {
+  font-family: 'Abril Fatface';
+  border-bottom:2px solid black;
+  padding: 3vh;
+  padding-top:0;
+}
+
+article p {
+  padding:2vh;
+  text-indent:3vw;
+}
+
+.dropcap {
+  font-size: 18pt;
+  font-family: 'Abril Fatface';
+}

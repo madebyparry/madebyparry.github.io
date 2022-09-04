@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("../assets/bricks_e.jpg");
+  background-size: contain;
+  font-family: "Myriad Pro";
+}
+
+header, .header-top, .header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  border-bottom: 5px solid #FF6B00;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+
+.header-bottom a {
+  color: #FF6B00;
+  text-decoration: none;
+}
+.header-bottom a:hover {
+  color: #2EFCFF;
+  text-shadow: 0px 0px 7px #2EFCFF;
+}
+.header-bottom ul {
+  list-style-type: none;
+  padding-left: none;
+  display: flex;
+}
+.header-bottom li {
+  margin: 0px 5px;
+}
+
+.main-logo {
+  width: 20%;
+  display: block;
+}
+
+.hero .hero-image {
+  width: 100%;
+  display: block;
+  margin: auto;
+  transition-duration: 1s;
+  transition-delay: 1s;
+}
+.hero #hero-video {
+  border-bottom: 5px solid #FF6B00;
+  margin-top: 50px;
+}
+.hero .hero-image:hover {
+  transform: rotate(-30deg);
+}
+.hero .hero-text {
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-text p {
+  text-align: center;
+  color: #FF6B00;
+  font-size: 24pt;
+  width: 100%;
+}
+
+.countdown-wrapper {
+  padding: 100px 0px;
+  text-align: center;
+}
+.countdown-wrapper h3 {
+  color: #FF6B00;
+}
+.countdown-wrapper p {
+  color: #FF6B00;
+  font-size: 30pt;
+  text-shadow: 0px 0px 10px rgba(255, 107, 0, 0.6);
+  transition: 1s;
+}
+.countdown-wrapper p:hover {
+  color: #2EFCFF;
+  text-shadow: 0px 0px 13px #2EFCFF;
+}
+.countdown-wrapper .time-info-wrapper {
+  color: #FF6B00;
+}
+.countdown-wrapper .time-info-wrapper ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.countdown-wrapper .time-info-wrapper li {
+  padding-left: none;
+}
+
+.fancy-break {
+  background-image: url("../assets/spacelounge_tiled_wallpaper.png");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  border-top: 5px solid #FF6B00;
+  border-bottom: 5px solid #FF6B00;
+  margin: 50px 0;
+}
+
+footer {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-top: 5px solid #FF6B00;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 100px;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-right {
+  width: 50%;
+}
+
+/*# sourceMappingURL=master.css.map */

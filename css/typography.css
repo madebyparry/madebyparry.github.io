@@ -1,0 +1,118 @@
+/* ABRIL TEXT */
+@font-face {
+    font-family: 'Abril Text';
+    src: local("Abril Text Regular"),
+    url("../assets/fonts/abril/Abril_Text_Regular.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Text SemiBold';
+    src: local("Abril Text Semibold"),
+    url("../assets/fonts/abril/Abril_Text_SemiBold.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Text Bold';
+    src: local("Abril Text Bold"),
+    url("../assets/fonts/abril/Abril_Text_Bold.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Text ExtraBold';
+    src: local("Abril Text ExtraBold"),
+    url("../assets/fonts/abril/Abril_Text_ExtraBold.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Text Italic';
+    src: local("Abril Text Italic"),
+    url("../assets/fonts/abril/Abril_Text_Italic.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Text SemiBold Italic';
+    src: local("Abril Text SemiBold Italic"),
+    url("../assets/fonts/abril/Abril_Text_SemiBoldItalic.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Text Bold Italic';
+    src: local("Abril Text Bold Italic"),
+    url("../assets/fonts/abril/Abril_Text_BoldItalic.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Text ExtraBold Italic';
+    src: local("Abril Text ExtraBold Italic"),
+    url("../../assets/fonts/abril/Abril_Text_ExtraBoldItalic.otf") format('Opentype');
+  }
+
+
+  /* ABRIL DISPLAY */
+  @font-face {
+    font-family: 'Abril Display';
+    src: local("Abril Display Regular"),
+    url("../assets/fonts/abril/Abril_Display_Regular.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Display SemiBold';
+    src: local("Abril Display Semibold"),
+    url("../assets/fonts/abril/Abril_Display_SemiBold.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Display Bold';
+    src: local("Abril Display Bold"),
+    url("../assets/fonts/abril/Abril_Display_Bold.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Display ExtraBold';
+    src: local("Abril Display ExtraBold"),
+    url("../assets/fonts/abril/Abril_Display_ExtraBold.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Display Italic';
+    src: local("Abril Display Italic"),
+    url("../assets/fonts/abril/Abril_Display_Italic.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Display SemiBold Italic';
+    src: local("Abril Display SemiBold Italic"),
+    url("../assets/fonts/abril/Abril_Display_SemiBoldItalic.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Display Bold Italic';
+    src: local("Abril Display Bold Italic"),
+    url("../assets/fonts/abril/Abril_Display_BoldItalic.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Display ExtraBold Italic';
+    src: local("Abril Display ExtraBold Italic"),
+    url("../../assets/fonts/abril/Abril_Display_ExtraBoldItalic.otf") format('Opentype');
+  }
+
+
+  @font-face {
+    font-family: 'Abril Fatface';
+    src: local("Abril Fatfce Bold Italic"),
+    url("../assets/fonts/abril/Abril_Fatface.otf") format('Opentype');
+  }
+  @font-face {
+    font-family: 'Abril Fatface Italic';
+    src: local("Abril Fatface Italic"),
+    url("../../assets/fonts/abril/Abril_Fatface_Italic.otf") format('Opentype');
+  }
+
+
+  /* UBUNTU MONO */
+  @font-face {
+    font-family: 'Ubuntu Mono';
+    src: local("Ubuntu Mono Regular"),
+    url("../assets/fonts/UbuntuMono-Regular.ttf") format('Truetype');
+  }
+  
+  @font-face {
+    font-family: 'Ubuntu Mono Bold';
+    src: local("Ubuntu Mono Regular"),
+    url("../assets/fonts/UbuntuMono-Bold.ttf") format('Truetype');
+  }
+  
+  @font-face {
+    font-family: 'Ubuntu Mono Italic';
+    src: local("Ubuntu Mono Regular"),
+    url("../assets/fonts/UbuntuMono-Italic.ttf") format('Truetype');
+  }
+  
+

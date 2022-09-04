@@ -1,0 +1,50 @@
+body {
+  margin:0;
+  font-size: 5em;
+  font-family: 'Courier New', monospace;
+  background-color: #7BA0D2;
+  overflow-x:hidden;
+}
+
+section {
+  height:2000px;
+  width:100%;
+  max-width: 2000px;
+  overflow:hidden;
+  margin-bottom:100px;
+}
+
+main{
+  background: linear-gradient(to bottom, #7BA0D2 20%, white);
+  height:6000px;
+}
+
+.plx_image {
+  width:100%;
+  position:fixed;
+}
+
+.plx_clouds1 {top:-40px;}
+.plx_clouds2 {top:-10px;}
+.plx_clouds3 {top:50px;}
+.plx_birds {top:300px; left:-1000px;}
+.plx_sun {top:120px;}
+.plx_mtns1 {bottom:0;}
+.plx_mtns2 {bottom:0;}
+.plx_trees {bottom:0;}
+.plx_text { top:100%; text-align: center; color:white; font-size: 1em;}
+.plx_text_box {
+  width:50%;
+  margin:auto;
+  background-color: white;
+  text-align: center;
+  z-index: -1;
+}
+
+span  {
+  border-radius: 50%;
+  background-color: black;
+  bottom:0;
+  left:0;
+
+}
