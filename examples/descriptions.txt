@@ -1,0 +1,12 @@
+TAS:
+Client requested a "flashy, modern and classy" update to their website promoting automotive detailing, wrapping, and protective coat business. Logos and copy text was provided by client - waiting for remaining copy. The images were found on creative commons and were edited in Photoshop by myself to fit the requested direction. Prototypes were designed in Illustrator and XD. 
+<br/>
+Their existing website was setup on Wordpress and the owner was comfortable with the CMS enough to make changes as needed so I attempted to keep the configuration as similar as possible. 
+<br/> 
+I used <a href="underscores.me">Underscores</a> as my parent theme template to give me the most flexibility with the design. Due to the nature of Underscores, all CSS, JS, and responsiveness needed to be written from scratch. 
+
+
+Tarotbuddy:
+My wife started learning to read tarot cards and that inspired me to see if I could write a program that's been divinely inspired. The initial concept was written in BASH and NodeJs with a client interface. I then wrote the web interface and converted the initial program to its' new clothes. 
+<br/>
+Updates were made to include card lookups with full descriptions written by none other than my wife who inspired the project. Major arcana cards have been illustrated by hand using Adobe Fresco and Illustrator with more cards on the way.

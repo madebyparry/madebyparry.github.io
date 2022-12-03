@@ -107,6 +107,12 @@ header {
 .foxtail::after {
     background-image: url("../assets/images/screenshot1.jpg");
 }
+.tas::after {
+    background-image: url("../assets/images/tas.jpg");
+}
+.tarotbuddy::after {
+    background-image: url("../assets/images/tarotbuddy.jpg");
+}
 .video-header::after {
     background-image: url("../assets/images/screenshot2.jpg");
 }
