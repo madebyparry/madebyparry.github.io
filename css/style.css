@@ -128,3 +128,16 @@ header {
 .portfo::after {
     background-image: url("../assets/images/screenshot6.jpg");
 }
+
+@media screen and (max-width: 900px) {
+    .examples-grid {
+        grid-template-columns: auto;
+    }
+    header {
+        font-size: 2em;
+    }
+    .page-header {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
